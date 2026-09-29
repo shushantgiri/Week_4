@@ -1,4 +1,4 @@
-/* ===== General ===== */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@ body {
     line-height: 1.6;
 }
 
-/* ===== Navigation Bar ===== */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -39,7 +38,6 @@ body {
     color: #7fd67f;
 }
 
-/* ===== Profile Card ===== */
 .card {
     background-color: #d3d3d3;
     width: 90%;
@@ -69,7 +67,7 @@ body {
     margin: 20px 0 10px;
 }
 
-/* ===== Skills List ===== */
+
 .card ul {
     list-style-position: inside;
     text-align: left;
@@ -80,7 +78,7 @@ body {
     padding: 2px 0;
 }
 
-/* ===== Button Link ===== */
+
 .btn {
     display: inline-block;
     background-color: #3a0ca3;
@@ -94,7 +92,7 @@ body {
     background-color: #2a0880;
 }
 
-/* ===== Footer ===== */
+
 footer {
     text-align: center;
     padding: 15px;
@@ -102,7 +100,6 @@ footer {
     font-size: 14px;
 }
 
-/* ===== Mobile ===== */
 @media (max-width: 500px) {
     .navbar {
         flex-direction: column;
